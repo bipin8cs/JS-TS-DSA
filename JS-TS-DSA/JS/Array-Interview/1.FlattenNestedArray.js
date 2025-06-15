@@ -16,7 +16,6 @@
 // console.log("result", result)
 
 
-
 //without using recurrssive approach
 let arr = [1, [2, 3], [4, [6]]];
 while (arr.some(e => Array.isArray(e))) {
