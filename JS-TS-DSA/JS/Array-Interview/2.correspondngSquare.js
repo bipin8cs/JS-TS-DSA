@@ -23,7 +23,6 @@ function squaredFrquencyEqual(arr1, arr2) {
 console.log(squaredFrquencyEqual([1, 2, 3], [9, 1, 4]));
 
 //t.c O(N2)
-
 function isSameFrequency(arr1, arr2) {
     if (arr1?.length !== arr2?.length) {
         return false;
