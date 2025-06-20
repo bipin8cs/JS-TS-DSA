@@ -15,3 +15,7 @@ const arr = [1, 2, 3, 4, 5];
 const k = 2;
 const rotatedArray = rotateArrayRight(arr, k)
 console.log(rotatedArray)//[4, 5, 1, 2, 3]
+
+// ⚠️ Edge Case:
+// If k is negative (e.g. k = -3), k % arr.length will still return a negative number in JavaScript
+// k = ((k % arr.length) + arr.length) % arr.length;
